@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rase.css">
+
+    
+   
+</head>
+<body>
+    <div class="calculator">
+        <p class="infos"></p>
+        <form name="form">
+            <div class="resultat">
+                <input type="text" id="fenetre"name="fenetre">
+            </div>
+            <div class="button">
+                <div class="raver">
+                    <input type="button" value="7"name="V7"onclick="val(this.value)">
+                    <input type="button" value="8"name="V8" onclick="val(this.value)">
+                    <input type="button" value="9"name="V9" onclick="val(this.value)">
+                    <input type="button" value="+"name="plus"class="signe"  onclick="val(this.value)">
+                </div>
+                <div class="raver">
+                    <input type="button" value="4"name="V4" onclick="val(this.value)">
+                    <input type="button" value="5"name="V5" onclick="val(this.value)">
+                    <input type="button" value="6"name="V6" onclick="val(this.value)">
+                    <input type="button" value="-"name="moins"class="signe"  onclick="val(this.value)">
+                </div>
+                <div class="raver">
+                    <input type="button" value="1"name="V1" onclick="val(this.value)">
+                    <input type="button" value="2"name="V2" onclick="val(this.value)">
+                    <input type="button" value="3"name="V2" onclick="val(this.value)">
+                    <input type="button" value="*"name="MUT" class="signe" onclick="val(this.value)">
+                </div>
+                <div class="raver">
+                    <input type="button" value="0"name="zero" onclick="val(this.value)">
+                    <input type="button" value="."name="pint"class="signe"  onclick="val(this.value)">
+                    <input type="button" value="/"name="arro"class="signe"  onclick="val('/')">
+                    <input type="button" value="="name="egal"class="signe bouton-egal" onclick="calcule()">
+                </div>
+                <input type="button" class="reset" value="Supprimer"onclick="suppr()">
+             
+                
+            </div>
+
+
+        </form>
+    </div>
+    <script src="henry.js"></script>
+</body>
+</html>
+          
+       
